@@ -1,0 +1,12 @@
+autopep8
+jedi
+django-debug-toolbar
+flake8
+ipython
+ipywidgets
+isort
+pre_commit
+mypy
+notebook
+pylint-django
+pylint
