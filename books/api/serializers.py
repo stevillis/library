@@ -1,8 +1,11 @@
-from dataclasses import fields
+
+from books.models import Book
 from rest_framework import serializers
-from books import models
+
 
 class BookSerializer(serializers.ModelSerializer):
+    """Book Serializer"""
     class Meta:
-        model = models.Book
+        """Medata options"""
+        model = Book
         fields = '__all__'
